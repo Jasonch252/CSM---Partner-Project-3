@@ -13,7 +13,7 @@ def country_csv(file_name):
     2. Generates and writes a CSV file for each dictionary, generating a file per region."""
 
     try:
-        #create a blank dictionary "countries" containing one key (name) and one variable (region).
+        #create a blank dictionary "countries" containing one key (name) and one value (region).
         #note that some names (e.g. Antarctica) don't have a region specified. Assign value as "none".
         countries = {}
         Asia = {}
