@@ -53,7 +53,7 @@ def country_csv(file_name):
             else:
                 No_region_specified[key] = value
 
-#use the csv writer module to import each created dictionary (e.g. Asia, Oceania, Americas, etc)
+#use the csv writer module to convert each created dictionary (e.g. Asia, Oceania, Americas, etc)
 #into its own CSV file.
 
         with open("Asia.csv", mode = "w", newline = "") as Asia_file:
